@@ -8,6 +8,11 @@
 
 /* shared style */
 
+
+.secondery-bg{
+    background-color: rgb(255, 248, 243);;
+}
+
 .test-primary {
     color: rgb(253, 110, 10);
 }
@@ -34,6 +39,26 @@
     border-radius: 5px;
     font-size: 20px;
     border: 1px solid;
+}
+
+.section-title{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.section-description{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
 }
 
 /* header style */
@@ -109,4 +134,44 @@ font-weight: 400;
 line-height: 30px;
 letter-spacing: 0%;
 text-align: left;
+}
+
+/* main styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.item-name{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+
+}
+.item-value{
+    font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0%;
+
 }
